@@ -1,17 +1,17 @@
 class AlephCli < Formula
   desc "Minimal CLI for Aleph Cloud"
   homepage "https://github.com/aleph-im/aleph-rs"
-  version "0.10.3"
+  version "0.11.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/aleph-im/aleph-rs/releases/download/v0.10.3/aleph-cli-macos-aarch64"
-    sha256 "0025b4bc27f4dbab1375140aedfa80610438dec05fab05afb9f84e36d67b8b32"
+    url "https://github.com/aleph-im/aleph-rs/releases/download/v0.11.0/aleph-cli-macos-aarch64"
+    sha256 "891933806f5baaebb00939b0fb460fd39990b2eba47f338f171ccc56b1dac9ae"
   end
 
   on_intel do
-    url "https://github.com/aleph-im/aleph-rs/releases/download/v0.10.3/aleph-cli-macos-x86_64"
-    sha256 "d47394f10cc7025ba40a0b3c2e8b25930b1045e7594eaf8f092511f86d94ea44"
+    url "https://github.com/aleph-im/aleph-rs/releases/download/v0.11.0/aleph-cli-macos-x86_64"
+    sha256 "18716edf3d58478646fd460921d7935ce61825cca14e15392ef626d53aa5bc4b"
   end
 
   def install
